@@ -20,9 +20,10 @@ const InputForm = ({ getNinjinsFromFirestore }) => {
       type: type,
       company: company,
       operator: operator,
-      //  isDone: false,
+      isDone: false,
     }
-    const addedData = await postDataToFirestore('ninjins', postData);
+
+    const addedData2 = await postDataToFirestore('ninjins', postData);
     setType('');
     setCompany('');
     setOperator('');

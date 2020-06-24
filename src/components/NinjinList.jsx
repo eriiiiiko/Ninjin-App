@@ -23,7 +23,7 @@ const NinjinList = props => {
 
   // useEffectを利用してFirestoreからデータの一覧を取得．
   useEffect(() => {
-    const result = getNinjinsFromFirestore();
+    const result2 = getNinjinsFromFirestore();
   }, [props])
 
   return (
